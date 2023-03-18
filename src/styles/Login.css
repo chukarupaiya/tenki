@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.outer-login {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background:linear-gradient(to bottom,rgb(219, 255, 245),rgb(255, 212, 220));
+	min-height: 100vh;
+	position: relative;
+	padding-top: 30px;
+	overflow: hidden;
+	
+}
+
+.home-left{
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
+.home-left h1{
+	font-size: 200px;
+	text-align: left;
+	padding-left: 70px;
+	margin-top: 250px;
+	margin-bottom: 0px;
+	font-family: 'Lobster', cursive;
+}
+
+.home-left p{
+	font-size: 20px;
+	text-align: left;
+	padding-left: 110px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	word-spacing: normal;
+	width: 85%;
+	font-family: 'Sono', sans-serif;
+}
+
+.home-right{
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
+.connect-btn{
+	
+	position: absolute;
+	top:50%;
+	right: 30%;
+	font-size: 20px;
+    width: 170px;
+    height: 55px;
+    background-color: rgb(255, 168, 168);
+    color: black;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 0px;
+    transition: 0.3s;
+	font-family: 'Sono', sans-serif;
+	
+}
+
+.connect-btn:hover{
+	
+	cursor: pointer;
+    transform: scale(1.09);
+    color: white;
+	
+}
